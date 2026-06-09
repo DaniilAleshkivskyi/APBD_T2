@@ -1,0 +1,45 @@
+{
+  "roomId": 1,
+  "roomNumber": "205",
+  "type": "Double",
+  "pricePerNight": 250.0,
+  "floor": 2,
+  "reservations": [
+    {
+      "reservationId": 1,
+      "guest": {
+        "firstName": "Anna",
+        "lastName": "Kowalska",
+        "email": "anna.kowalska@email.com",
+        "phone": "123456789"
+      },
+      "checkInDate": "2026-06-01",
+      "checkOutDate": "2026-06-05",
+      "status": "Completed",
+      "reservationServices": [
+        {
+          "quantity": 4,
+          "serviceDate": "2026-06-02",
+          "service": {
+            "serviceId": 1,
+            "name": "Breakfast Buffet",
+            "description": "Full breakfast buffet with hot and cold dishes",
+            "price": 50.0,
+            "durationMinutes": 60
+          }
+        },
+        {
+          "quantity": 1,
+          "serviceDate": "2026-06-03",
+          "service": {
+            "serviceId": 2,
+            "name": "Spa Treatment",
+            "description": "Full body relaxation massage",
+            "price": 200.0,
+            "durationMinutes": 90
+          }
+        }
+      ]
+    }
+  ]
+}

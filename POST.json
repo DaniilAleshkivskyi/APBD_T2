@@ -1,0 +1,10 @@
+{
+  "firstName": "Jan",
+  "lastName": "Kowalski",
+  "email": "jan.kowalski@email.com",
+  "phone": "999888777",
+  "reservation": {
+    "roomId": 3,
+    "checkInDate": "2026-08-01"
+  }
+}
